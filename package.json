@@ -1,0 +1,36 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xoneru/workspace.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Xonezz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xoneru/workspace/issues"
+  },
+  "homepage": "https://github.com/xoneru/workspace#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "core-js": "^3.25.5"
+  }
+}
